@@ -157,6 +157,12 @@ footer {
   background-color: var(--color-primary);
 }
 
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 .hero {
   max-width: var(--container-width);
   margin: 0 auto var(--space-xl);
