@@ -56,6 +56,12 @@ footer {
   padding: var(--space-lg);
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 
 /* ===============================
    3. Общие элементы интерфейса
